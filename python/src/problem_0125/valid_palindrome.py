@@ -47,7 +47,7 @@ class Solution:
         """
         time: O(n)
         memory: O(1)
-        two pointers
+        approach: two pointers
         """
 
         def alpha_num(c):
