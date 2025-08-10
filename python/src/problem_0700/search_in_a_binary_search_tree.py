@@ -45,6 +45,11 @@ class TreeNode:
 
 class Solution:
     def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+        """
+        time: O(log n)
+        memory: O(log n)
+        approach: recursive
+        """
         if not root:
             return None
 
@@ -54,4 +59,3 @@ class Solution:
             return self.searchBST(root.left, val)
         else:
             return root
-
