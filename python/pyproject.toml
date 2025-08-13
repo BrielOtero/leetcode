@@ -8,23 +8,7 @@ line-length = 88
 target-version = "py38"
 
 [tool.ruff.lint]
-select = [
-    "E",
-    "F",
-    "W",
-    "I",
-    "N",
-    "UP",
-    "B",
-    "A",
-    "C4",
-    "SIM",
-    "RET",
-    "ARG",
-    "PTH",
-    "PL",
-    "RUF",
-]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "SIM", "RET", "ARG", "PTH", "PL", "RUF"]
 extend-ignore = ["F841", "N802", "E501", "F401", "I001", "PLR2004"]
 
 [tool.mypy]
