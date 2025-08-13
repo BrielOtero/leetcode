@@ -11,5 +11,5 @@ from problem_0424.longest_repeating_character_replacement import Solution
 def test_characterReplacement() -> None:
     """Test characterReplacement function."""
     solution = Solution()
-    assert solution.characterReplacement("ABAB", 2) == 4  # noqa: PLR2004
-    assert solution.characterReplacement("AABABBA", 1) == 4  # noqa: PLR2004
+    assert solution.characterReplacement("ABAB", 2) == 4
+    assert solution.characterReplacement("AABABBA", 1) == 4

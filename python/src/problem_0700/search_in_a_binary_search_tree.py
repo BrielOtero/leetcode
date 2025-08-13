@@ -55,7 +55,6 @@ class Solution:
 
         if root.val < val:
             return self.searchBST(root.right, val)
-        elif root.val > val:
+        if root.val > val:
             return self.searchBST(root.left, val)
-        else:
-            return root
+        return root
