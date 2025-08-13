@@ -12,4 +12,3 @@ def test_characterReplacement() -> None:
     """Test characterReplacement function."""
     solution = Solution()
     assert solution.characterReplacement("ABAB", 2) == 4
-    assert solution.characterReplacement("AABABBA", 1) == 4

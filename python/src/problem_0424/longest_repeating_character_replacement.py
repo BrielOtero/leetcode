@@ -27,24 +27,22 @@ There may exists other ways to achieve this answer too.
 Constraints:
 
 
-        1 <= s.length <= 105
-        s consists of only uppercase English letters.
-        0 <= k <= s.length
+	1 <= s.length <= 105
+	s consists of only uppercase English letters.
+	0 <= k <= s.length
 
 Difficulty: Medium
 """
 
 from typing import List, Optional
 
-
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         """
         time: O(n)
-        memory: O(m), where m is total number of unique characters in the string
+        memory: O(m), m is total number of unique characters in the string
         approach: sliding window
         """
-
         left, max_f, res = 0, 0, 0
         count = {}
 

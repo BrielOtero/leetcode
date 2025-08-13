@@ -41,6 +41,8 @@ Constraints:
 Difficulty: Easy
 """
 
+from typing import List, Optional
+
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
