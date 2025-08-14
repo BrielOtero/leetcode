@@ -27,11 +27,9 @@ Follow up: Your algorithm's time complexity must be better than O(n log n), wher
 Difficulty: Medium
 """
 
-from typing import List, Optional
-
 
 class Solution:
-    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+    def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         """
         time: O(n)
         memory: (n) extra memory

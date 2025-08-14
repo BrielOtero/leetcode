@@ -57,10 +57,9 @@ Constraints:
 Difficulty: Medium
 """
 
-from typing import List, Optional
 
 class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+    def removeDuplicates(self, nums: list[int]) -> int:
         """
         time: O(n)
         memory: O(1) extra memory

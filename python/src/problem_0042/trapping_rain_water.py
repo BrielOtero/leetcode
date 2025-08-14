@@ -30,11 +30,9 @@ Constraints:
 Difficulty: Hard
 """
 
-from typing import List, Optional
-
 
 class Solution:
-    def trap(self, height: List[int]) -> int:
+    def trap(self, height: list[int]) -> int:
         """
         time: O(n)
         memory: O(1) extra memory

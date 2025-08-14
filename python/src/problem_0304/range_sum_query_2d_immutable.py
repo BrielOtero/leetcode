@@ -48,7 +48,6 @@ Constraints:
 Difficulty: Medium
 """
 
-from typing import List, Optional
 
 class NumMatrix:
     """
@@ -57,7 +56,7 @@ class NumMatrix:
     approach: prefix sum
     """
 
-    def __init__(self, matrix: List[List[int]]):
+    def __init__(self, matrix: list[list[int]]):
         rows, cols = len(matrix), len(matrix[0])
 
         self.sum_mat = [[0] * (cols + 1) for _ in range(rows + 1)]
@@ -73,12 +72,12 @@ class NumMatrix:
     def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
         row1, col1, row2, col2 = row1 + 1, col1 + 1, row2 + 1, col2 + 1
 
-        top_left = self.sum_mat[row1 - 1][col1 - 1]
-        top_right = self.sum_mat[row1 - 1][col2]
-        bottom_left = self.sum_mat[row2][col1 - 1]
         bottom_right = self.sum_mat[row2][col2]
+        above_area = self.sum_mat[row1 - 1][col2]
+        left_area = self.sum_mat[row2][col1 - 1]
+        top_left = self.sum_mat[row1 - 1][col1 - 1]
 
-        return bottom_right - top_right - bottom_left + top_left
+        return bottom_right - above_area - left_area + top_left
 
 
 # Your NumMatrix object will be instantiated and called as such:

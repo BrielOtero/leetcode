@@ -56,11 +56,9 @@ Constraints:
 Difficulty: Medium
 """
 
-from typing import List, Optional
-
 
 class Solution:
-    def maxTurbulenceSize(self, arr: List[int]) -> int:
+    def maxTurbulenceSize(self, arr: list[int]) -> int:
         """
         time: O(n)
         memory: O(1)

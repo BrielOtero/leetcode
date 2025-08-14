@@ -36,11 +36,9 @@ Constraints:
 Difficulty: Medium
 """
 
-from typing import List, Optional
-
 
 class Solution:
-    def maxArea(self, height: List[int]) -> int:
+    def maxArea(self, height: list[int]) -> int:
         """
         time: O(n)
         memory: O(1) extra memory

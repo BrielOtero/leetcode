@@ -32,8 +32,6 @@ Constraints:
 Difficulty: Easy
 """
 
-from typing import List, Optional
-
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -44,7 +42,7 @@ class TreeNode:
 
 
 class Solution:
-    def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
+    def searchBST(self, root: TreeNode | None, val: int) -> TreeNode | None:
         """
         time: O(log n)
         memory: O(log n)

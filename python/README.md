@@ -3,7 +3,7 @@
 ## Setup
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.13.6 or higher
 
 ### Installation
 ```bash

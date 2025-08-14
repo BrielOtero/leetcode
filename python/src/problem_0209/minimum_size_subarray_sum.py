@@ -41,11 +41,10 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 Difficulty: Medium
 """
 
-from typing import List, Optional
 
 
 class Solution:
-    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+    def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         """
         time: O(n)
         memory: O(1)

@@ -36,11 +36,10 @@ Constraints:
 Difficulty: Easy
 """
 
-from typing import List, Optional
 
 
 class Solution:
-    def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
+    def containsNearbyDuplicate(self, nums: list[int], k: int) -> bool:
         """
         time: O(n)
         memory: O(n)

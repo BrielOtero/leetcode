@@ -43,7 +43,6 @@ Constraints:
 Difficulty: Easy
 """
 
-from typing import List, Optional
 
 
 class NumArray:
@@ -53,7 +52,7 @@ class NumArray:
     approach: prefix sum
     """
 
-    def __init__(self, nums: List[int]):
+    def __init__(self, nums: list[int]):
         self.prefix = [0] * (len(nums) + 1)
         for i in range(len(nums)):
             self.prefix[i + 1] = self.prefix[i] + nums[i]
