@@ -32,6 +32,37 @@ def create_singly_linked_list(values: list[int]) -> ListNode | None:
     return head
 
 
+def create_cyclic_linked_list(values: list[int], pos: int) -> ListNode | None:
+    """Create a cyclic linked list from a list of values.
+
+    Args:
+        values: A list of integers to convert to a linked list.
+        pos: The index of the node that tail's next pointer connects to.
+             If pos is -1, there is no cycle.
+
+    Returns:
+        The head node of the created linked list, or None if the input list is empty.
+    """
+    if not values:
+        return None
+
+    nodes = []
+    head = ListNode(values[0])
+    nodes.append(head)
+    current = head
+
+    for val in values[1:]:
+        current.next = ListNode(val)
+        current = current.next
+        nodes.append(current)
+
+    # Create cycle if pos is valid
+    if pos >= 0 and pos < len(nodes):
+        current.next = nodes[pos]
+
+    return head
+
+
 def singly_linked_list_to_list(head: ListNode | None) -> list[int]:
     """Convert a singly linked list to a list of values.
 
