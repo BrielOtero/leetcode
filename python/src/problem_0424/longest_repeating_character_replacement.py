@@ -42,7 +42,7 @@ class Solution:
         approach: sliding window
         """
         left, max_f, res = 0, 0, 0
-        count = {}
+        count: dict[str, int] = {}
 
         for r in range(len(s)):
             count[s[r]] = 1 + count.get(s[r], 0)

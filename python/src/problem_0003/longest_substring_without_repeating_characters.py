@@ -49,7 +49,7 @@ class Solution:
         """
 
         left, length = 0, 0
-        mp = {}
+        mp: dict[str, int] = {}
 
         for r in range(len(s)):
             if s[r] in mp:

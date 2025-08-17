@@ -2,7 +2,7 @@ from __future__ import annotations
 
 # Definition for singly-linked list.
 class ListNode:
-    def __init__(self, val=0, next: ListNode | None = None):
+    def __init__(self, val: int = 0, next: ListNode | None = None):
         self.val = val
         self.next = next
 

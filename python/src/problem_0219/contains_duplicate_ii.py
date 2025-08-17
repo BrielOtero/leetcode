@@ -46,7 +46,7 @@ class Solution:
         approach: sliding window
         """
 
-        window = set()
+        window: set[int] = set()
         left = 0
 
         for right in range(len(nums)):

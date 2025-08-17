@@ -51,7 +51,7 @@ class Solution:
         approach: two pointers
         """
 
-        def alpha_num(c):
+        def alpha_num(c: str) -> bool:
             return (
                 ord("A") <= ord(c) <= ord("Z")
                 or ord("a") <= ord(c) <= ord("z")

@@ -36,9 +36,9 @@ class Solution:
         approach: bucket sort
         """
 
-        count = {}
-        freq = [[] for i in range(len(nums) + 1)]
-        res = []
+        count: dict[int, int] = {}
+        freq: list[list[int]] = [[] for i in range(len(nums) + 1)]
+        res: list[int] = []
 
         for n in nums:
             count[n] = count.get(n, 0) + 1

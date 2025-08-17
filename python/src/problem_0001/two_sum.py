@@ -54,7 +54,7 @@ class Solution:
         memory: O(n) extra memory
         approach: hash map
         """
-        mp = {}
+        mp: dict[int, int] = {}
 
         for i in range(len(nums)):
             diff = target - nums[i]
