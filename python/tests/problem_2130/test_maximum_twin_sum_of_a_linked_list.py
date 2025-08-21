@@ -9,8 +9,8 @@ from problem_2130.maximum_twin_sum_of_a_linked_list import Solution
 from utils.linked_lists import create_singly_linked_list
 
 
-def test___init__() -> None:
-    """Test __init__ function."""
+def test_pairSum() -> None:
+    """Test pairSum function."""
     solution = Solution()
 
     test_1_input = create_singly_linked_list([5, 4, 2, 1])

@@ -8,8 +8,8 @@ import pytest
 from problem_0303.range_sum_query_immutable import NumArray
 
 
-def test___init__() -> None:
-    """Test __init__ function."""
+def test_sumRange() -> None:
+    """Test sumRange function."""
     # ["NumArray", "sumRange", "sumRange", "sumRange"]
     # [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
     # [null, 1, -1, -3]

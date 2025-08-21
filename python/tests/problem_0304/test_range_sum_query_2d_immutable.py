@@ -8,8 +8,8 @@ import pytest
 from problem_0304.range_sum_query_2d_immutable import NumMatrix
 
 
-def test___init__() -> None:
-    """Test __init__ function."""
+def test_sumRegion() -> None:
+    """Test sumRegion function."""
     solution = NumMatrix(
         [
             [3, 0, 1, 4, 2],
