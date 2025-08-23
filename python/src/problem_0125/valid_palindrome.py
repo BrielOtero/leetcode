@@ -47,7 +47,7 @@ class Solution:
     def isPalindrome(self, s: str) -> bool:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: two pointers
         """
 

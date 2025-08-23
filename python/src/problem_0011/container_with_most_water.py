@@ -41,7 +41,7 @@ class Solution:
     def maxArea(self, height: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1) extra memory
+        space: O(1) extra memory
         approach: two pointers
         """
 

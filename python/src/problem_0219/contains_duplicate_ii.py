@@ -42,7 +42,7 @@ class Solution:
     def containsNearbyDuplicate(self, nums: list[int], k: int) -> bool:
         """
         time: O(n)
-        memory: O(n)
+        space: O(n)
         approach: sliding window
         """
 

@@ -28,7 +28,7 @@ class Solution:
     def subarraySum(self, nums: list[int], k: int) -> int:
         """
         time: O(n)
-        memory: O(n)
+        space: O(n)
         approach: prefix sums
         """
         res = 0

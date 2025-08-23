@@ -48,7 +48,7 @@ class Solution:
     def maxSubArray(self, nums: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: kadane's algorithm
         """
         max_sum, curr_sum = nums[0], 0

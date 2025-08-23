@@ -51,7 +51,7 @@ class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         """
         time: O(n)
-        memory: O(n) extra memory
+        space: O(n) extra memory
         approach: hash map
         """
         mp: dict[int, int] = {}

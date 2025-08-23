@@ -48,7 +48,7 @@ Difficulty: Easy
 class NumArray:
     """
     time: O(n) for init, O(1) for sumRange
-    memory: O(n)
+    space: O(n)
     approach: prefix sum
     """
 

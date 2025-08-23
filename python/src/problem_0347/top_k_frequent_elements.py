@@ -32,7 +32,7 @@ class Solution:
     def topKFrequent(self, nums: list[int], k: int) -> list[int]:
         """
         time: O(n)
-        memory: (n) extra memory
+        space: (n) extra memory
         approach: bucket sort
         """
 

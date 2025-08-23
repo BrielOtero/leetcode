@@ -52,7 +52,7 @@ class Solution:
     def twoSum(self, numbers: list[int], target: int) -> list[int]:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: Two pointers
         """
         left, right = 0, len(numbers) - 1

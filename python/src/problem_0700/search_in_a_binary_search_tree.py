@@ -45,7 +45,7 @@ class Solution:
     def searchBST(self, root: TreeNode | None, val: int) -> TreeNode | None:
         """
         time: O(log n)
-        memory: O(log n)
+        space: O(log n)
         approach: recursive
         """
         if not root:

@@ -36,7 +36,7 @@ class Solution:
     def numOfSubarrays(self, arr: list[int], k: int, threshold: int) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: sliding window
         """
 

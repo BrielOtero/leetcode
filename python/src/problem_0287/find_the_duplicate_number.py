@@ -53,7 +53,7 @@ class Solution:
     def findDuplicate(self, nums: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: fast and slow pointers, floyd tortoise and hare
         """
         slow, fast = 0, 0

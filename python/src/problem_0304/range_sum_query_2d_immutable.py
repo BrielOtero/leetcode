@@ -52,7 +52,7 @@ Difficulty: Medium
 class NumMatrix:
     """
     time: O(n * m) for init, O(1) for sumRegion
-    memory: O(n * m)
+    space: O(n * m)
     approach: prefix sum
     """
 

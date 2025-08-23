@@ -55,7 +55,7 @@ class Solution:
     def findMiddleIndex(self, nums: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: prefix sums
         """
         total = 0

@@ -38,7 +38,7 @@ class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         """
         time: O(n)
-        memory: O(m), m is total number of unique characters in the string
+        space: O(m), m is total number of unique characters in the string
         approach: sliding window
         """
         left, max_f, res = 0, 0, 0

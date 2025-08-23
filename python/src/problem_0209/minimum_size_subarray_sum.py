@@ -47,7 +47,7 @@ class Solution:
     def minSubArrayLen(self, target: int, nums: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: sliding window variable size
         """
 

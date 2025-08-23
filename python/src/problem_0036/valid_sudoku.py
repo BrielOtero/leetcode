@@ -68,7 +68,7 @@ class Solution:
     def isValidSudoku(self, board: list[list[str]]) -> bool:
         """
         time: O(n^2)
-        memory: O(n^2)
+        space: O(n^2)
         approach: hash set
         """
 

@@ -35,7 +35,7 @@ class Solution:
     def productExceptSelf(self, nums: list[int]) -> list[int]:
         """
         time: O(n)
-        memory: O(1) extra, O(n) for the output array
+        space: O(1) extra, O(n) for the output array
         approach: prefix sums
         """
         res = [1] * (len(nums))

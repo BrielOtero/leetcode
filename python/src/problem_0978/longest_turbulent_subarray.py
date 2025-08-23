@@ -61,7 +61,7 @@ class Solution:
     def maxTurbulenceSize(self, arr: list[int]) -> int:
         """
         time: O(n)
-        memory: O(1)
+        space: O(1)
         approach: kadane's algorithm sliding window
         """
 

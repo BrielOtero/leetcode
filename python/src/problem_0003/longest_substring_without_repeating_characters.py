@@ -44,7 +44,7 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         """
         time: O(n)
-        memory: O(m), where m is unique elements
+        space: O(m), where m is unique elements
         approach: sliding window
         """
 

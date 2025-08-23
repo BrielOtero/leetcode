@@ -59,7 +59,7 @@ class Solution:
     def hasCycle(self, head: ListNode | None) -> bool:
         """
         time: O(n)
-        memory: O(1) extra space
+        space: O(1) extra space
         approach: fast and slow pointers
         """
 

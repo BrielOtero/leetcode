@@ -43,7 +43,7 @@ class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
         """
         time: O(n)
-        memory: O(n)
+        space: O(n)
         approach: hash set
         """
         nums_set = set(nums)
