@@ -10,8 +10,8 @@ from problem_0226.invert_binary_tree import Solution
 from utils.trees import TreeNode, create_tree_node, serialize_tree
 
 
-def test___init__() -> None:
-    """Test __init__ function."""
+def test_invertTree() -> None:
+    """Test invertTree function."""
     solution = Solution()
     test_2_input = create_tree_node([4, 2, 7, 1, 3, 6, 9])
     test_1_expected = [4, 7, 2, 9, 6, 3, 1]
