@@ -2,7 +2,7 @@ class Solution:
     def trap(self, height: list[int]) -> int:
         """
         time: O(n)
-        space: O(1) extra memory
+        space: O(1) extra space
         approach: two pointers
         """
 

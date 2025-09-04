@@ -2,7 +2,7 @@ class Solution:
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         """
         time: O(n^2)
-        memory: O(n)
+        space: O(n)
         approach: two pointers
         """
         triplets = []

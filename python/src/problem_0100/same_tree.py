@@ -6,17 +6,20 @@
 #         self.right = right
 from utils.trees import TreeNode
 
-
 class Solution:
-    def maxDepth(self, root: TreeNode | None) -> int:
+    def isSameTree(self, p: TreeNode | None, q: TreeNode | None) -> bool:
         """
         time: O(n)
         space: O(n)
             - best case (balanced tree): O(log(n))
             - worst Case (degenerate tree): O(n)
-        approach: recursive depth first search
+        approach: depth first search, recursive
         """
-        if not root:
-            return 0
 
-        return 1 + max(self.maxDepth(root.left), self.maxDepth(root.right))
+        if not p and not q:
+            return True
+
+        if p and q and p.val == q.val:
+            return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
+
+        return False

@@ -2,7 +2,7 @@ class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         """
         time: O(n)
-        space: O(n) extra memory
+        space: O(n) extra space
         approach: hash map
         """
         mp: dict[int, int] = {}
