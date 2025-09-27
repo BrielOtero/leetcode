@@ -25,7 +25,17 @@ select = [
     "PL",
     "RUF",
 ]
-extend-ignore = ["F841", "N802", "E501", "F401", "I001", "PLR2004", "A002"]
+extend-ignore = [
+    "F841",
+    "N802",
+    "E501",
+    "F401",
+    "I001",
+    "PLR2004",
+    "A002",
+    "RET505",
+    "PLR5501",
+]
 
 [tool.mypy]
 python_version = "3.13"
