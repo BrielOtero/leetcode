@@ -4,7 +4,6 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_0033.search_in_rotated_sorted_array import Solution
 
 def test_search() -> None:

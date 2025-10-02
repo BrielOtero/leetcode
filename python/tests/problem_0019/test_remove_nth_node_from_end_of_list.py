@@ -5,7 +5,6 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_0019.remove_nth_node_from_end_of_list import Solution
 from utils.linked_lists import create_singly_linked_list, singly_linked_list_to_list
 

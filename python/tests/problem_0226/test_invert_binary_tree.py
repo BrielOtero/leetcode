@@ -5,7 +5,6 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_0226.invert_binary_tree import Solution
 from utils.trees import TreeNode, create_tree_node, serialize_tree
 

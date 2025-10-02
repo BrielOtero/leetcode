@@ -4,7 +4,6 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_0141.linked_list_cycle import Solution
 from utils.linked_lists import create_singly_linked_list, create_cyclic_linked_list
 

@@ -4,7 +4,6 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_2130.maximum_twin_sum_of_a_linked_list import Solution
 from utils.linked_lists import create_singly_linked_list
 

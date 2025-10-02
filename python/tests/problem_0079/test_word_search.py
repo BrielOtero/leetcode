@@ -4,9 +4,7 @@ from pathlib import Path
 # Add src to Python path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent.parent / "src"))
 
-import pytest
 from problem_0079.word_search import Solution
-
 
 def test_exist() -> None:
     """Test exist function."""
