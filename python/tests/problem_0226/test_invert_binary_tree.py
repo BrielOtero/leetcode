@@ -12,9 +12,9 @@ from utils.trees import TreeNode, create_tree_node, serialize_tree
 def test_invertTree() -> None:
     """Test invertTree function."""
     solution = Solution()
-    test_2_input = create_tree_node([4, 2, 7, 1, 3, 6, 9])
+    test_1_input = create_tree_node([4, 2, 7, 1, 3, 6, 9])
     test_1_expected = [4, 7, 2, 9, 6, 3, 1]
-    test_1_output = solution.invertTree(test_2_input)
+    test_1_output = solution.invertTree(test_1_input)
     assert serialize_tree(test_1_output) == test_1_expected
 
     test_2_input = create_tree_node([2, 1, 3])
