@@ -9,8 +9,8 @@ from utils.trees import TreeNode
 
 class Solution:
     def lowestCommonAncestor(
-        self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
-    ) -> "TreeNode":
+        self, root: TreeNode, p: TreeNode, q: TreeNode
+    ) -> TreeNode:
         """
         time: O(h), where h is the height of the tree.
         space: O(1)
